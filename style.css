@@ -1,26 +1,54 @@
 h1 {
-    font-size: 111px;
-    color: blue;
-    background-color: Red;
+    font-size: 88px;
+    color: rgb(85, 104, 17);
+    background-color: rgb(68, 9, 9);
     }
 h2  {
-    font-size: 50px;
-    color:rgb(44, 170, 50);
-}
-
-.info {
-    font-size: 12px;
+    font-size: 30px;
     color: black;
 }
 
-.myDiv  {
-    height: 100px;
-    width: 100%;
-    background-color: pink;
+.info {
+    font-size: 18px;
+    color: black;
+    float: center;
+    padding: 40px;
 }
+
+.myDiv  {
+    height: 80%;
+    width: 80%;
+    background-color: rgb(54, 132, 151);
+}
+
+.body {
+    background-color: rgb(122, 113, 100);
+    padding: 25px;
+}
+
+.mButton {
+    color: black;
+    background-color: rgb(151, 118, 76);
+}
+
+#about {
+    background-color: black;
+    color: whitesmoke;
+}
+
+#portfolio {
+    background-color: black;
+    color: whitesmoke;
+}
+
+#contact {
+    background-color: black;
+    color: whitesmoke;
+}
+
 @media screen and (max-width: 750px) and (min-width: 300px)    {
     .myDiv  {
-        width: 350px;
-        height: 350px;
+        width: 500px;
+        height: 500px;
     }
 }

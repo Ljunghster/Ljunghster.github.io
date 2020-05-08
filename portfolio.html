@@ -7,25 +7,26 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="body">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="index.html">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="index.html">About Michael Ljungh<span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="portfolio.html">portfolio</a>
-            <a class="nav-item nav-link" href="contact.html">Contact Me</a>
+            <a id="about" class="nav-item nav-link active" href="index.html">About Michael Ljungh<span class="sr-only">(current)</span></a>
+            <a id="portfolio" class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+            <a id="contact" class="nav-item nav-link" href="contact.html">Contact Me</a>
           </div>
         </div>
       </nav>
       <div>
-        <button id="myButton" class="float-left submit-button" >Home</button>
-        <button id="myButton1" class="float-left submit-button" >Original Personal Website</button>
-        <button id="myButton2" class="float-left submit-button" >Daily Planner</button>
-        <button id="myButton3" class="float-left submit-button" >Code Quiz</button>
+        <button class="mButton" id="myButton" class="float-left submit-button" >Home</button>
+        <button class="mButton" id="myButton1" class="float-left submit-button" >Original Personal Website</button>
+        <button class="mButton" id="myButton2" class="float-center submit-button" >Daily Planner</button>
+        <button class="mButton" id="myButton3" class="float-right submit-button" >Code Quiz</button>
+        <button class="mButton" id="myButton4" class="float-right submit-button" >Project 1</button>
       </div>
       <script type="text/javascript">
         document.getElementById("myButton").onclick = function () {
@@ -39,6 +40,9 @@
         };
         document.getElementById("myButton3").onclick = function () {
             location.href = "https://ljunghster.github.io/Homework04/";
+        };
+        document.getElementById("myButton4").onclick = function () {
+            location.href = "https://isaacvon.github.io/Project1-UrbanHomesteading-/index.html";
         };
     </script>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
